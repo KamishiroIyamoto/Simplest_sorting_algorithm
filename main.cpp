@@ -48,7 +48,7 @@ int main() // Вводи int числа, для завершения введи 
 	}
 
 	system("cls");
-	for (int i = 0; i < size; i++)
+	for (int i = 0; i < size - 1; i++)
 		cout << first[i] << '\t';
 
 	int* temp = new int[--size];
