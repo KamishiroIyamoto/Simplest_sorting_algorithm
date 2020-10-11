@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void Add(int*& arr, int& size) // Добавляем ячейку в массив
+void Add(int*& arr, int& size) // Р”РѕР±Р°РІР»СЏРµРј СЏС‡РµР№РєСѓ РІ РјР°СЃСЃРёРІ
 {
 	int* temp = new int[size + 1];
 	for (int i = 0; i < size; i++)
@@ -11,7 +11,7 @@ void Add(int*& arr, int& size) // Добавляем ячейку в массив
 	size++;
 }
 
-void Del(int*& arr, int& size, int count) // Убираем из массива выбранное число
+void Del(int*& arr, int& size, int count) // РЈР±РёСЂР°РµРј РёР· РјР°СЃСЃРёРІР° РІС‹Р±СЂР°РЅРЅРѕРµ С‡РёСЃР»Рѕ
 {
 	int* temp = new int[size - 1];
 	bool a = false;
@@ -34,7 +34,7 @@ void Del(int*& arr, int& size, int count) // Убираем из массива выбранное число
 	size--;
 }
 
-int main() // вводи int числа, для завершения введи 0
+int main() // Р’РІРѕРґРё int С‡РёСЃР»Р°, РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РІРІРµРґРё 0
 {
 	int size = 1;
 	int* first = new int[size];
