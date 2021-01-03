@@ -34,7 +34,7 @@ void Del(int*& arr, int& size, int count) // Убираем из массива 
 	size--;
 }
 
-int main() // Вводи int числа, для завершения введи 0
+int main() // Вводи int числа, для завершения введи -1
 {
 	int size = 1;
 	int* first = new int[size];
@@ -42,7 +42,7 @@ int main() // Вводи int числа, для завершения введи 
 	for (int i = 0; i < i + 1; i++)
 	{
 		cin >> first[i];
-		if (first[i] == 0)
+		if (first[i] == -1)
 			break;
 		Add(first, size);
 	}
